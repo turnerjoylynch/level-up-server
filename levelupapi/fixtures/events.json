@@ -1,0 +1,13 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "game": 2,
+            "description": "This event is for players of all levels to enjoy the game FRUITS as created by Emma.",
+            "date": "2022-06-07",
+            "time": "10:20",
+            "organizer": 1
+        }
+    }
+]
