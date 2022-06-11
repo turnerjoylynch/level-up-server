@@ -21,8 +21,7 @@ class GameTypeView(ViewSet):
         return Response(serializer.data)
 
 class GameTypeSerializer(serializers.ModelSerializer):
-    """JSON serializer for game types
-    """
+    """JSON serializer for game types"""
     class Meta:
         model = GameType
         fields = ('id', 'label')
