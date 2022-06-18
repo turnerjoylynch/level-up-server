@@ -24,7 +24,7 @@ from levelupapi.views.event import EventView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'gametypes', GameTypeView, 'gametype')
-router.register(r'game', GameView, 'game')
+router.register(r'games', GameView, 'games')
 router.register(r'event', EventView, 'event')
 
 urlpatterns = [

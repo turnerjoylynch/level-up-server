@@ -11,3 +11,4 @@ SELECT g.id,
     g.number_of_players,
     g.skill_level
 FROM levelupapi_game g
+
