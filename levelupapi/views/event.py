@@ -12,12 +12,12 @@ class EventView(ViewSet):
     """Level up events view"""
 
     def retrieve(self, request, pk):
-        """Handle GET requests for single event"""  
+        """Handle GET requests for single event"""
 
         event = Event.objects.get(pk=pk)
         serializer = EventSerializer(event)
         return Response(serializer.data)
-        
+
 
     def list(self, request):
         """Handle GET requests to get all events """
